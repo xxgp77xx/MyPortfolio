@@ -21,6 +21,80 @@
     />
 
     <!-- Set keywords that are used by search engines to find sites -->
-    <meta name="keywords" content="Gavin Pangier, Gavin, Pangier, University of Minnesota, Resume, Portfolio">
+    <meta
+      name="keywords"
+      content="Gavin Pangier, Gavin, Pangier, University of Minnesota, Resume, Portfolio"
+    />
+
+    <style>
+        body{
+            margin:0;
+        }
+        /* Remove the top and bottom margin to reduce size between h1 and p */
+        h1{
+            color: #ffffff;
+            padding-left: 2%;
+            padding-bottom: 0%;
+            margin-bottom: 0%;
+        }
+        #header-paragraph{
+            color: #ffffff;
+            padding-top: 0%;
+            padding-left: 3%;
+            margin-top: 0%;          
+        }
+
+        /* Make sure the personal summary lines up with headers */
+        #personal-summary{
+            color: #ffffff;
+            padding-left: 3%;
+        }
+
+        /* Create two columns one taking up 70% of screen width other taking of 30% */
+        .col1{
+            float: left;
+            width: 27%;
+            height: 100vh; /*vh=view-height*/
+            background-color: #17365d;
+            color: #ffffff;
+        }
+        .col2{
+            float: right;
+            width: 73%;
+            height: 100vh; /*vh=view-height*/
+            background-color:#cedff3;
+            color: #000000;
+        }
+        /* .row:after{
+            display: table;
+            clear: both;
+        } */
+
+        h2{
+            padding-left: 2.5%;
+            padding-top: 2%;
+        }
+        p{
+            padding-left: 2%;
+        }
+    </style>
+
   </head>
+
+  <body>
+      <div class="row">
+          <div class="col1">
+            <h1>Gavin Pangier</h1>
+            <p id="header-paragraph">Contact Information</p>
+            <p id="personal-summary">Personal Summary Goes Here</p>
+            <h2>Skills</h2>
+            <h2>Certificates/Licenses</h2>
+            <h2>Interests</h2>
+        </div>
+        <div class="col2">
+            <h2>Work History</h2>
+            <h2>Education</h2>
+        </div>
+    </div>    
+  </body>
 </html>
