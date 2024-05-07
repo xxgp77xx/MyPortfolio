@@ -30,13 +30,48 @@
         body{
             margin:0;
         }
+
         /* Remove the top and bottom margin to reduce size between h1 and p */
         h1{
             color: #ffffff;
+            text-decoration: underline;
             padding-left: 2%;
-            padding-bottom: 0%;
+            padding-bottom: .5%;
             margin-bottom: 0%;
         }
+
+        h2{
+            padding-left: 2.5%;
+            padding-top: 2%;
+        }
+        
+        p{
+            padding-left: 2%;
+        }
+        
+        hr{
+            color: #01295F;
+            background-color: #01295F;
+            border: none;
+            height: .1%;
+        }
+
+        #contact-info{
+            color: #ffffff;
+            text-decoration: none;
+            border-right: solid .1vh #ffffff;
+            border-left: 1vh;
+            padding-right: 2%;
+        }
+        #contact-info:last-of-type{
+            color: #ffffff;
+            text-decoration: none;
+            border-right: none;
+        }
+        #contact-info:first-of-type{
+            padding-left: 9%;
+        }
+
         #header-paragraph{
             color: #ffffff;
             padding-top: 0%;
@@ -53,30 +88,26 @@
         /* Create two columns one taking up 70% of screen width other taking of 30% */
         .col1{
             float: left;
-            width: 27%;
+            width: 30%;
             height: 100vh; /*vh=view-height*/
-            background-color: #17365d;
+            background-color: #01295F;
             color: #ffffff;
+        }
+        .col1 h2{
+            color:#ffffff;
+            background-color: #575757;
         }
         .col2{
             float: right;
-            width: 73%;
+            width: 70%;
             height: 100vh; /*vh=view-height*/
-            background-color:#cedff3;
+            background-color:#e3eff3;
             color: #000000;
         }
-        /* .row:after{
-            display: table;
-            clear: both;
-        } */
+        .col2 h2{
+            padding-top: 0%;
+        }
 
-        h2{
-            padding-left: 2.5%;
-            padding-top: 2%;
-        }
-        p{
-            padding-left: 2%;
-        }
     </style>
 
   </head>
@@ -84,15 +115,25 @@
   <body>
       <div class="row">
           <div class="col1">
-            <h1>Gavin Pangier</h1>
-            <p id="header-paragraph">Contact Information</p>
+              <div>
+                <h1>Gavin Pangier</h1>
+                <a id="contact-info" href="mailto:xxgp77xx@gmail.com">Email</a>
+                <a id="contact-info" href="https://www.linkedin.com/in/gavin-pangier-98292515a/" target="_blank">LinkedIn</a>
+                <a id="contact-info" href="https://github.com/xxgp77xx" target="_blank">Github</a>
+            </div>
             <h2>Skills</h2>
             <h2>Certificates/Licenses</h2>
             <h2>Interests</h2>
         </div>
         <div class="col2">
-            <p id="personal-summary">Personal Summary Goes Here</p>
+            <p id="personal-summary">
+                U of MN College of Engineering student with a wide range of experience in common programming languages, 
+                data structures, and algorithms. Adept at troubleshooting various computer hardware and software issues. 
+                Skilled in mechanical assembly and maintenance. Excels in independent work and team environments.
+            </p>
+            <hr>
             <h2>Work History</h2>
+            <hr>
             <h2>Education</h2>
         </div>
     </div>    
