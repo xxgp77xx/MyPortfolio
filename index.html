@@ -36,7 +36,7 @@
         h1{
             color: #ffffff;
             text-decoration: underline;
-            padding-left: 2%;
+            padding-left: 1em;
             padding-bottom: .5%;
             margin-bottom: 0%;
         }
@@ -58,7 +58,7 @@
             border-right:   none;
         }
         #contact-info:first-of-type{
-            padding-left: 9%;
+            padding-left: 3.2em;
         }
         a.contact-info:hover{
             color: #f80000;  
@@ -77,16 +77,20 @@
         /* Make sure the personal summary lines up with headers */
         #personal-summary{
             padding-top: 2%;
-            padding-left: 2.5%;
+            padding-left: 1em;
         }
 
+        .row{
+            display: flex;
+        }
         /* Create two columns one taking up 70% of screen width other taking of 30% */
         .col1{
             float: left;
-            width: 30%;
-            height: 200vh;
+            width: auto;
             background-color: #01295F;
             color: #ffffff;
+            flex: 1;
+            max-width: 20em;
         }
         .col1 h2{
             color:#ffffff;
@@ -115,23 +119,23 @@
         .col2{
             float: right;
             width: 70%;
-            height: auto;
             background-color:#f1f7f9;
             color: #000000;
+            flex: 1;
         }
         .col2 h2{
             padding-top: 0%;
         }
         .col2 h3{
             padding-bottom: 0%; 
-            padding-left: 3%;  
+            padding-left: 1em;  
             font-size:medium;
             margin-bottom: .5%;
         }
         .col2 h4{
             font-size:small;
             padding-top: 0%;
-            padding-left: 3.5%;
+            padding-left: 1.5em;
             margin-top: 0%;
             margin-bottom: .5%;
         }
