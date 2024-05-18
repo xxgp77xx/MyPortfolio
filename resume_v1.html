@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <!-- Set the title of the webpage -->
+    <title>Resume-MyPortfolio</title>
+
+    <!-- Specify character encoding to utf-8  -->
+    <meta charset="uft-8" />
+
+    <!-- Set the viewport to match device viewing it on -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Set the author of the page -->
+    <meta name="author" content="Gavin Pangier" />
+
+    <!-- Set the description of the page -->
+    <meta
+      name="description"
+      content="Welcome to Gavin Pangier's portfolio website. Explore a showcase of my work
+        and skills in Computer Science, including my resume. Get in touch to discuss collaborations and opportunities"
+    />
+
+    <!-- Set keywords that are used by search engines to find sites -->
+    <meta
+      name="keywords"
+      content="Gavin Pangier, Gavin, Pangier, University of Minnesota, Resume, Portfolio"
+    />
+
+    <style>
+        body{
+            margin:0;
+            height: 200%;
+        }
+
+        /* Remove the top and bottom margin to reduce size between h1 and p */
+        h1{
+            color: #ffffff;
+            text-decoration: underline;
+            padding-left: 1em;
+            padding-bottom: .5%;
+            margin-bottom: 0%;
+        }
+
+        h2{
+            padding-left: 2.5%;
+            padding-top: 2%;
+        }
+
+        a.contact-info{
+            color: #ffffff;
+            text-decoration: none;
+            border-right: solid .1vh #ffffff;
+            border-left: 1vh;
+            padding-right: 2%;
+
+        }
+        #contact-info:last-of-type{
+            border-right:   none;
+        }
+        #contact-info:first-of-type{
+            padding-left: 3.2em;
+        }
+        a.contact-info:hover{
+            color: #f80000;  
+        }
+        a.contact-info:last-of-type:hover{
+            color: #f80000; 
+        }
+        
+        #header-paragraph{
+            color: #ffffff;
+            padding-top: 0%;
+            padding-left: 3%;
+            margin-top: 0%;          
+        }
+
+        /* Make sure the personal summary lines up with headers */
+        #personal-summary{
+            padding-top: 2%;
+            padding-left: 1em;
+        }
+
+        .row{
+            display: flex;
+        }
+        /* Create two columns one taking up 70% of screen width other taking of 30% */
+        .col1{
+            float: left;
+            width: auto;
+            background-color: #01295F;
+            color: #ffffff;
+            flex: 1;
+            max-width: 20em;
+        }
+        .col1 h2{
+            color:#ffffff;
+            background-color: #575757;
+            padding-bottom: 1.5%;
+            margin-bottom: 0%;
+        }
+        .col1 .skills{
+            padding-left: 3%;
+            padding-right: 3%;
+        }
+        .col1 .skill{
+            background-color: #3d3d3d;
+            border-radius: 5px;
+        }
+        .col1 .skill-progress-bar{
+            padding-left: 1%;
+            border-radius: 5px;
+            font-size: smaller;
+        }
+        .col1 .skill-name{
+            margin-bottom: 0%;
+            margin-top: 4%;
+        }
+
+        .col2{
+            float: right;
+            width: 70%;
+            background-color:#f1f7f9;
+            color: #000000;
+            flex: 1;
+        }
+        .col2 h2{
+            padding-top: 0%;
+        }
+        .col2 h3{
+            padding-bottom: 0%; 
+            padding-left: 1em;  
+            font-size:medium;
+            margin-bottom: .5%;
+        }
+        .col2 h4{
+            font-size:small;
+            padding-top: 0%;
+            padding-left: 1.5em;
+            margin-top: 0%;
+            margin-bottom: .5%;
+        }
+        .col2 p{
+            font-size: smaller;
+        }
+        .col2 hr{
+            color: #01295F;
+            background-color: #01295F;
+            border: none;
+            height: .1vh;
+        }
+        .col2 ul{
+            margin-top: 0%;
+            padding-top: 0%;
+            font-size: small;
+        }
+
+
+    </style>
+
+  </head>
+
+  <body>
+      <div class="row">
+          <div class="col1">
+              <div>
+                <h1>Gavin Pangier</h1>
+                <a class="contact-info" id="contact-info" href="mailto:xxgp77xx@gmail.com">Email</a>
+                <a class="contact-info" id="contact-info" href="https://www.linkedin.com/in/gavin-pangier-98292515a/" target="_blank">LinkedIn</a>
+                <a class="contact-info" id="contact-info" href="https://github.com/xxgp77xx" target="_blank">Github</a>
+            </div>
+
+            <h2>Hard Skills</h2>
+            <div class="skills">
+                <p class="skill-name">OOP Programming</p>
+                <div class="skill">
+                    <div class="skill-progress-bar"style="width:70%; background-color: #27e637; color:#000000;">Intermediate</div>
+                </div>
+                <p class="skill-name">Software Development</p>
+                <div class="skill">
+                    <div class="skill-progress-bar"style="width:65%; background-color: #27e637; color: #000000;">Intermediate</div>
+                </div>
+                <p class="skill-name">Agile Scrum</p>
+                <div class="skill">
+                    <div class="skill-progress-bar"style="width:65%; background-color: #27e637; color:#000000;">Intermediate</div>
+                </div>
+                <p class="skill-name">Procedural Programming</p>
+                <div class="skill">
+                    <div class="skill-progress-bar"style="width:60%; background-color: #27e637; color:#000000;">Intermediate</div>
+                </div>
+                <p class="skill-name">Microsoft Office Suite</p>
+                <div class="skill">
+                    <div class="skill-progress-bar"style="width:60%; background-color: #27e637; color:#000000;">Intermediate</div>
+                </div>
+                <p class="skill-name">SQA Testing</p>
+                <div class="skill">
+                    <div class="skill-progress-bar"style="width:55%; background-color: #e6d626; color:#000000;">Intermediate</div>
+                </div>
+                <p class="skill-name">Technical Writing</p>
+                <div class="skill">
+                    <div class="skill-progress-bar"style="width:55%; background-color: #e6d626; color:#000000;">Intermediate</div>
+                </div>
+                <p class="skill-name">Troubleshooting & Debugging</p>
+                <div class="skill">
+                    <div class="skill-progress-bar"style="width:50%; background-color: #e6d626; color:#000000;">Intermediate</div>
+                </div>
+                <p class="skill-name">Data Analysis & Visualization</p>
+                <div class="skill">
+                    <div class="skill-progress-bar"style="width:45%; background-color: #e68027; color:#000000;">Novice</div>
+                </div>
+            </div>
+
+            <h2>Soft Skills</h2>
+            <div class="skills">
+                <p class="skill-name">Teamwork</p>
+                <div class="skill">
+                    <div class="skill-progress-bar"style="width:85%; background-color: #27e637; color: #000000;">Excellent</div>
+                </div>
+                <p class="skill-name">Problem Solving</p>
+                <div class="skill">
+                    <div class="skill-progress-bar"style="width:65%; background-color: #27e637; color:#000000;">Good</div>
+                </div>
+                <p class="skill-name">Communication</p>
+                <div class="skill">
+                    <div class="skill-progress-bar"style="width:65%; background-color: #27e637; color:#000000;">Good</div>
+                </div>
+                <p class="skill-name">Time Management</p>
+                <div class="skill">
+                    <div class="skill-progress-bar"style="width:60%; background-color: #27e637; color:#000000;">Good</div>
+                </div>
+                <p class="skill-name">Continuous Learning</p>
+                <div class="skill">
+                    <div class="skill-progress-bar"style="width:60%; background-color: #27e637; color:#000000;">Good</div>
+                </div>
+                <p class="skill-name">Attention To Detail</p>
+                <div class="skill">
+                    <div class="skill-progress-bar"style="width:45%; background-color: #E6D626; color:#000000;">Moderate</div>
+                </div>
+            </div>
+
+            <h2>Interests</h2>
+            <p style="padding-left: 3%; margin-bottom: 1%; margin-top: 3%;">Fitness & Self Improvement</p>
+            <p style="padding-left: 3%; margin-top: 1.5%; margin-bottom: 1%;">Motorcycles</p>
+            <p style="padding-left: 3%; margin-top: 1.5%; margin-bottom: 1%;">Computer Programming</p>
+            <p style="padding-left: 3%; margin-top: 1.5%; margin-bottom: 1%;">Gaming</p>
+        </div>
+        <div class="col2">
+            <p id="personal-summary">
+                U of MN College of Engineering student with a wide range of experience in common programming languages, 
+                data structures, and algorithms. Adept at troubleshooting various computer hardware and software issues. 
+                Skilled in mechanical assembly and maintenance. Excels in independent work and team environments.
+            </p>
+
+            <hr>
+            <h2>Work History</h2>
+            <hr>
+
+            <h3>Software Quality Assurance Intern</h3>
+            <h4>AspenTech, Medina, MN | June 2023 - Aug 2023</h4>
+            <ul>
+                <li>Developed testing scripts to determine holistic system health.</li>
+                <li>Developed smoke tests to determine process health.</li>
+                <li>Designed and created a situational awareness display.</li>
+            </ul>
+
+            <h3>Advanced Repair Agent</h3>
+            <h4>Geek Squad - Best Buy, Roseville, MN | Sept 2020 - Feb 2023</h4>
+            <ul>
+                <li>Arranged maintenance sessions to discover and mend inefficiencies.</li>
+                <li>Performed system upgrades and updates to improve operability.</li>
+                <li>Provided customers with troubleshooting, repair, and support services with multiple operating systems.</li>
+            </ul>
+
+            <h3>Service Representative</h3>
+            <h4>Minnesota Petroleum, Columbia Heights, MN | April 2018 - Aug 2020</h4>
+            <ul>
+                <li>Resolved customer concerns with friendly and knowledgeable service.</li>
+                <li>Provided forward-thinking maintenance and service strategies to ensure customer equipment operability.</li>
+                <li>Coordinated technicians and sub-contractors services to support customers.</li>
+            </ul>
+
+            <hr>
+            <h2>Education</h2>
+            <hr>
+
+            <h3>Bachelor of Science: Computer Science and Programming</h3>
+            <h4>University of Minnesota - Twin Cities - Minneapolis, MN | Sept 2020 - May 2024</h4>
+            <ul>
+                <li>Minored in Leadership</li>
+                <li>GPA: 3.70</li>
+                <li>Dean's List multiple semesters</li>
+                <li>Nominated for Tau Beta Pi Engineering Honor Society</li>
+            </ul>
+
+            <h3>Associate of Arts: General Studies</h3>
+            <h4>Anoka-Ramsey Community College - Minneapolis, MN | Aug 2015 - May 2017</h4>
+            <ul>
+                <li>GPA: 3.8</li>
+                <li>Dean's List 2017</li>
+            </ul>
+
+            <h3>High School Diploma </h3>
+            <h4>PACT Charter School - Ramsey, MN | Aug 2013 - Aug 2017</h4>
+            <ul>
+                <li>GPA: 4.0</li>
+            </ul>
+
+            <hr>
+            <h2>Certificates & Licenses</h2>
+            <hr>
+
+            <p style="padding-left: 3%; margin-top: 1%; font-size: medium;">Apple Repair Certification (Sept 2020)</p>
+            <p style="padding-left: 3%; font-size: medium;">BIR Racing License (July 2019)</p>
+            <p style="padding-left: 3%; font-size: medium;">Motorcycle Safety Certification (Aug 2016)</p>
+            <p style="padding-left: 3%; font-size: medium;">Firearm Safety Certification (July 2016)</p>
+            </div>
+        </div>
+    </div>    
+  </body>
+</html>
