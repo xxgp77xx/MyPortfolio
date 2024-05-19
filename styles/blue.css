@@ -1,0 +1,53 @@
+
+header h1{
+    color: #4d68af;
+}
+
+body{
+    padding: 0px 0px 0px 3px;
+    margin: 0px;
+}
+
+.flex-box{
+    display:flex;
+}
+
+#main{
+    flex: 2.5 1 auto;
+    background-color: rgb(255, 255, 255);
+}
+
+#main header h1{
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+#main header h2{
+    font-weight: normal;
+    padding: 0px 0px 0px 3px;
+    margin: 0px 0px 0px 0px;
+}
+#main header p{
+    font-weight: lighter;
+    padding: 1px 0px 0px 6px;
+    margin: 0px 0px 0px 0px;
+}
+#main main h2{
+    padding: 6px 0px 6px 3px;
+    margin: 6px 0px 6px 0px;
+    border-top: 2px solid #4d68af;
+    border-bottom: 2px solid #4d68af;
+    border-collapse: collapse;
+    color: #4d68af;
+    
+}
+
+#aside{
+    flex: 1 1 auto;
+    color: #ffffff;
+    background-color: #4d68af;
+    padding: 3px 0px 0px 0px;
+}
+#aside h2{
+    padding: 0px 0px 0px 6px;
+}
+
