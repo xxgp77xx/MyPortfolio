@@ -46,11 +46,6 @@ body{
     font-size: medium;
 }
 
-.work-title-li h3{
-    padding:0px 0px 0px 0px 0px;
-    margin:0px 0px 0px 0px 0px;
-}
-
 .work-experience div{
     display: flex;
 }
@@ -64,7 +59,30 @@ body{
     margin: 0px 0px 6px 0px;
 }
 
+.education-title-li{
+    list-style: none;
+    font-size: medium;
+}
+
+.education-title-li div{
+    display: flex;
+}
+
+.education h3{
+    margin: 0px;
+    padding: 0px;
+}
+
+.work-experience ul{
+    margin: 0px 0px 6px 0px;
+}
+
 .company{
+    margin: 0px;
+    padding: 0px 0px 3px 0px;
+}
+
+.school{
     margin: 0px;
     padding: 0px 0px 3px 0px;
 }
