@@ -46,6 +46,10 @@ body{
     font-size: medium;
 }
 
+.work-title-li li{
+    list-style: disc;
+}
+
 .work-experience div{
     display: flex;
 }
@@ -64,6 +68,10 @@ body{
     font-size: medium;
 }
 
+.education-title-li li{
+    list-style: disc;
+}
+
 .education-title-li div{
     display: flex;
 }
@@ -73,7 +81,7 @@ body{
     padding: 0px;
 }
 
-.work-experience ul{
+.education ul{
     margin: 0px 0px 6px 0px;
 }
 
@@ -101,5 +109,33 @@ body{
 }
 #aside h2{
     padding: 0px 0px 0px 6px;
+}
+
+.contact-info ul{
+    padding: 0px 0px 0px 24px; 
+}
+
+.contact-info li{
+    list-style: none;
+}
+
+.contact-info a{
+    text-decoration: none;
+}
+
+.contact-info a:link{
+    color:white;
+}
+
+.contact-info a:visited{
+    color:white;
+}
+
+.contact-info a:active{
+    color:white;
+}
+
+.contact-info a:hover{
+    color:red;
 }
 
