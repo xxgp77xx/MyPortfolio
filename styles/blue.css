@@ -13,9 +13,9 @@ body{
 }
 
 #main{
-    flex: 2.5 1 auto;
+    flex: 2 1 auto;
     background-color: rgb(255, 255, 255);
-    max-width: 1200px;
+    max-width: 1000px;
 }
 
 #main header h1{
@@ -100,42 +100,81 @@ body{
     padding: 0px 0px 6px auto;
 }
 
+.lac ul{
+    margin-top: 0px;
+}
+
 #aside{
     flex: 1 1 auto;
     color: #ffffff;
     background-color: #4d68af;
-    padding: 3px 0px 0px 0px;
+    padding: 24px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
     max-width: 300px;
 }
-#aside h2{
+
+
+.contact-info h2{
     padding: 0px 0px 0px 6px;
+    margin: 0px 0px 0px 0px;
 }
 
 .contact-info ul{
-    padding: 0px 0px 0px 24px; 
+    padding: 0px 0px 0px 12px;
+    margin: 0px 0px 0px 0px;
 }
 
 .contact-info li{
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
     list-style: none;
 }
 
 .contact-info a{
+    color: white;
     text-decoration: none;
 }
 
-.contact-info a:link{
-    color:white;
-}
-
-.contact-info a:visited{
-    color:white;
-}
-
-.contact-info a:active{
-    color:white;
-}
-
 .contact-info a:hover{
-    color:red;
+    color: red;
 }
+
+
+.hard-skills h2{
+    margin: 12px 0px 0px 0px;
+    padding: 0px 0px 0px 6px;
+}
+
+.hard-skills ul{
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.hard-skills li{
+    margin: 0px 0px 0px 0px;
+    padding: 3px 0px 3px 12px;
+}
+
+.hard-skills h3{
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    font-size: medium;
+}
+
+.progress-bar-outer{
+    margin: 0px 6px 0px 0px;
+    padding: 0px 0px 0px 6px;
+    background-color: red;
+    border-radius: 5px;
+}
+
+.progress-bar-inner{
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 3px;
+}
+
+
+
+
+
 
