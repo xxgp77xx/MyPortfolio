@@ -15,6 +15,7 @@ body{
 #main{
     flex: 2.5 1 auto;
     background-color: rgb(255, 255, 255);
+    max-width: 1200px;
 }
 
 #main header h1{
@@ -28,7 +29,7 @@ body{
 }
 #main header p{
     font-weight: lighter;
-    padding: 1px 0px 0px 6px;
+    padding: 3px 0px 0px 6px;
     margin: 0px 0px 0px 0px;
 }
 #main main h2{
@@ -38,7 +39,39 @@ body{
     border-bottom: 2px solid #4d68af;
     border-collapse: collapse;
     color: #4d68af;
-    
+}
+
+.work-title-li{
+    list-style: none;
+    font-size: medium;
+}
+
+.work-title-li h3{
+    padding:0px 0px 0px 0px 0px;
+    margin:0px 0px 0px 0px 0px;
+}
+
+.work-experience div{
+    display: flex;
+}
+
+.work-experience h3{
+    margin: 0px;
+    padding: 0px;
+}
+
+.work-experience ul{
+    margin: 0px 0px 6px 0px;
+}
+
+.company{
+    margin: 0px;
+    padding: 0px 0px 3px 0px;
+}
+
+.duration{
+    margin: 0px 12px 0px auto;
+    padding: 0px 0px 6px auto;
 }
 
 #aside{
@@ -46,6 +79,7 @@ body{
     color: #ffffff;
     background-color: #4d68af;
     padding: 3px 0px 0px 0px;
+    max-width: 300px;
 }
 #aside h2{
     padding: 0px 0px 0px 6px;
