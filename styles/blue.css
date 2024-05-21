@@ -1,4 +1,3 @@
-
 header h1{
     color: #4d68af;
 }
@@ -140,22 +139,30 @@ body{
 }
 
 
-.hard-skills h2{
-    margin: 12px 0px 0px 0px;
-    padding: 0px 0px 0px 6px;
-}
-
-.hard-skills ul{
+.skills h2{
     margin: 0px 0px 0px 0px;
-    padding: 0px 0px 0px 0px;
+    padding: 12px 0px 0px 6px;
 }
 
-.hard-skills li{
+.skills ul{
+    min-width: 200px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.skills ul:last-child{
+    min-width: 200px;
+    padding: 0px 0px 12px 0px;
+    margin: 0px;
+}
+
+.skills li{
     margin: 0px 0px 0px 0px;
-    padding: 3px 0px 3px 12px;
+    padding: 3px 0px 3px 6px;
+    list-style: none;
 }
 
-.hard-skills h3{
+.skills h3{
     margin: 0px 0px 0px 0px;
     padding: 0px 0px 0px 0px;
     font-size: medium;
@@ -163,17 +170,109 @@ body{
 
 .progress-bar-outer{
     margin: 0px 6px 0px 0px;
-    padding: 0px 0px 0px 6px;
-    background-color: red;
+    padding: 0px 0px 0px 0px;
+    background-color: #212f52;
     border-radius: 5px;
 }
 
 .progress-bar-inner{
     margin: 0px 0px 0px 0px;
-    padding: 0px 0px 0px 3px;
+    padding: 0px 0px 0px 6px;
+    border-radius: 5px;
 }
 
+#hs1 .progress-bar-inner{
+    background-color: #27e637;
+    width: 70%;
+}
 
+#hs2 .progress-bar-inner{
+    background-color: #27e637;
+    width: 65%;
+}
+
+#hs3 .progress-bar-inner{
+    background-color: #27e637;
+    width: 65%;
+}
+
+#hs4 .progress-bar-inner{
+    background-color: #27e637;
+    width: 60%;
+}
+
+#hs5 .progress-bar-inner{
+    background-color: #27e637;
+    width: 60%;
+}
+
+#hs6 .progress-bar-inner{
+    background-color: #e6d626;
+    width: 55%;
+}
+
+#hs7 .progress-bar-inner{
+    background-color: #e6d626;
+    width: 55%;
+}
+
+#hs8 .progress-bar-inner{
+    background-color: #e6d626;
+    width: 50%;
+}
+
+#hs9 .progress-bar-inner{
+    background-color: #e68027;
+    width: 45%;
+}
+
+#ss1 .progress-bar-inner{
+    background-color: #27e637;
+    width: 85%;
+}
+
+#ss2 .progress-bar-inner{
+    background-color: #27e637;
+    width: 65%;
+}
+
+#ss3 .progress-bar-inner{
+    background-color: #27e637;
+    width: 65%;
+}
+
+#ss4 .progress-bar-inner{
+    background-color: #27e637;
+    width: 60%;
+}
+
+#ss5 .progress-bar-inner{
+    background-color: #27e637;
+    width: 60%;
+}
+
+#ss6 .progress-bar-inner{
+    background-color: #e6d626;
+    width: 45%;
+}
+
+.interests h2{
+    padding: 0px 0px 0px 6px;
+    margin: 0px;
+}
+
+.interests span{
+    position: relative;
+    left: -12px;
+}
+.interests ul{
+    padding: 0px 0px 0px 15px;
+    margin: 0px 0px 0px 6px;
+}
+.interests li{
+    padding: 0px 0px 0px 6px;
+    margin: 0px 0px 0px 0px;
+}
 
 
 
